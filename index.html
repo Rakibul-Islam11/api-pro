@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    
+    
+</head>
+<body>
+
+    <input id="findPhoneInput" type="text" placeholder="Type here" class="input input-bordered input-secondary w-full max-w-xs" />
+    <button id="findPhoneBTN" class="btn btn-secondary" onclick="apiFunc(getInptData())">Secondary</button>
+
+    <div id="cardMain" class="card_main grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 ">
+        
+    </div>
+
+    <!-- Open the modal using ID.showModal() method -->
+    <span id="spinner" class="loading loading-spinner loading-xs hidden"></span>
+    <div  id="popOutpt">
+        
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+</body>
+</html>
